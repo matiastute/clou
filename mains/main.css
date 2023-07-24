@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Kanit:ital,wght@0,200;0,400;1,200;1,300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    background-color:rgb(3, 3, 62);
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    border-top: 20px;
+    
+    
+}
+.menu {
+    list-style-type: style type;
+    padding-inline-start:  20px; 
+    margin-left: auto;
+    border-top: 20px;
+    
+} 
+.menu_item {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px; 
+    padding-block: 10px;
+
+}
+.menu_item a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    
+
+}
+.menu_item.active a {
+    text-decoration: underline double;
+}
+main {
+    padding: 20px;
+}
+.menu .titulos .principal {
+    color: coral;
+}
+/* cartitas principal */
+
+.cartita {
+    width: 400px;
+    background-color:coral;
+    padding: 10px;
+    border-radius: 10px; 
+    display: inline-block;
+    margin-inline: 20px;
+    height: 30%;
+    width: 30%;
+}
+.cartita_imagen {
+   width: 420px;
+   display: inline-block;
+   }
+   
+.cartita_titulo {
+    font-size: 25px;
+    background-color: coral;
+}
+.cartita_parrafo {
+    font-size: 18px;
+    background-color: coral;
+}
+.cartita_boton {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    
+}
+.cartita_parrafo,
+.cartita_imagen,
+.cartita_titulo {
+    margin-bottom: 10px;
+}
+/* contacto */
+
+.redes {
+    justify-content: center;
+    width: 100px;
+}
+
+.wsp {
+    
+    width: 100px;
+    display: block;
+    display: inline;
+    
+    
+}
+.insta {
+    
+    width: 100px;
+    display: block;
+    display: inline;
+}
+.face {
+    
+    width: 100px;
+    display: block;
+    display: inline;
+}
+
+
+
+/* parrafo qienes somos */
+.titulos .principal {
+    margin-top: 20px;
+    font-size: 30px;
+    color: coral;
+    text-decoration: underline double;
+
+}
+.parrafo {
+    border-top: 100px;
+    font-size: 25px;
+    color: coral;
+    margin-inline: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width:600px){
+    .video {
+        display: grid;
+        justify-content: center;
+        width: 600px;
+        padding: 0px;
+    }
+}
+
+.pie {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+/* turnos */
+
+.turno .primario {
+    color: white;
+
+}
